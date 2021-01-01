@@ -1,0 +1,154 @@
+
+  /* body {
+    background-image: url(../components/images/loginblur.jpg);
+  } */
+  /* .heading {
+    width: 100%;
+    text-align: center;
+    color: #C45BBD;
+    text-decoration: underline;
+  } */
+
+  .section1{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .section1 .container1
+  {
+	margin: auto;
+    position: relative;
+    width:400px;
+    height: 500px;
+    color: #333;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(108, 108, 108);
+    border: solid black 1px;
+    border-radius: 20px;
+  }
+  
+  .section1 .container1 .user1 
+  {
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+  } 
+
+  .section1 .container1 .user1 .formBx1
+  {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      transition: 0.5s;
+      
+  }
+  .section1 .container1 .user1 .formBx1 img
+  {
+      width: 50%;
+      height: 50%;
+      margin-bottom: 20px;
+  }
+
+  .section1 .container1 .user1 .formBx1 form h2
+  {
+      font-size: 22px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 10px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #C45BBD;
+  }
+  .section1 .container1 .user1 .formBx1 form label
+  {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  } 
+  .section1 .container1 .user1 .formBx1 form input
+  {
+      position: relative;
+      width: 100%;
+      padding:10px;
+      border-radius: 20px;
+      outline: none;
+      box-shadow: none;
+      margin: 8px 0;
+      font-weight: bold;
+      font-family: 'Open Sans Condensed', sans-serif;
+      /* font-family: 'Oswald', sans-serif; */
+  }
+  
+  .section1 .container1 .user1 .formBx1 form select
+  {
+      position: relative;
+      width: 100%;
+      padding:10px;
+      color: #333;
+      border: none;
+      outline: none;
+      box-shadow: none;
+      margin: 8px 0;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-weight: 300;
+  }
+  
+  .section1 .container1 .user1 .formBx1 form input[type="submit"]
+  {
+      max-width: 100px;
+      /* background: #677eff; */
+      background: #F58A41;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: 'Open Sans Condensed', sans-serif;
+      letter-spacing: 1px;
+      transition: 0.5s;
+      border-radius: 20px;
+  }
+  
+  .section1 .container1 .user1 .formBx1 form
+  {
+      position: relative;
+      margin-top: 20px;
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: #555;
+      text-transform: uppercase;
+      font-weight: 300;
+  }
+  
+  @media (max-width: 991px)
+  {
+      .section1 .container1
+      {
+          max-width:400px;
+      }
+      .section1 .container1 .imgBx
+      {
+          display:none;       
+      }
+      .section1 .container1 .user1 .formBx1
+      {
+          width:100%;
+      }
+  
+  }
+  

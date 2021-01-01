@@ -1,0 +1,12 @@
+.input {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid grey;
+  margin: 8px 0;
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+}

@@ -1,0 +1,35 @@
+import React, { Component } from "react";
+import { MdKeyboardBackspace } from "react-icons/md";
+class NotFoundPage extends Component {
+  state = {};
+  handleClick() {
+    window.history.back();
+  }
+  render() {
+    return (
+      <div className="container-fluid">
+        <a href="/home">
+          <p style={{ color: "black" }}>HOME</p>
+        </a>
+        <div className="mt-5 text-center bg-secondary text-white">
+          <h1 className="display-3 my-5">404, Not Found</h1>
+          <hr />
+          Sorry, the requested page could not be found. Please make sure that
+          the URL you entered is correct.
+          <hr />
+          <button className="btn btn-dark" onClick={this.handleClick}>
+            <span className="mr-2">
+              <MdKeyboardBackspace
+                style={{ margin: -1, padding: -1 }}
+                color="white"
+              ></MdKeyboardBackspace>
+            </span>
+            Click here to go back
+          </button>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default NotFoundPage;

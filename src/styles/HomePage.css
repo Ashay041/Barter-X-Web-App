@@ -1,0 +1,10 @@
+.jumbotron{
+    background: url("../components/images/banner.png") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    padding: 5em inherit;
+    min-height: 300px;
+    margin:10px;
+}

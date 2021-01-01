@@ -1,0 +1,15 @@
+td {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.cat {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+p {
+  color: white;
+}
+.cat:hover {
+  box-shadow: 10px 10px black;
+}
