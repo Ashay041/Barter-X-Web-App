@@ -1,4 +1,6 @@
 # BarterX
+View the BarterX-Documentation.pdf file for UI Screenshots and Backend-functionalities.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
