@@ -1,4 +1,7 @@
-# BarterX
+## BarterX
+#Abstract: 
+  Barter-x is a decentralized platform to barter trade your personal assets online more transparently. It is a Hyperledger Fabric based implementation.
+
 View the BarterX-Documentation.pdf file for UI Screenshots and Backend-functionalities.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
