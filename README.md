@@ -1,6 +1,8 @@
 ## BarterX
 Abstract: 
-  Barter-x is a decentralized platform to barter trade your personal assets online more transparently. It is a Hyperledger Fabric based implementation.
+• Barter-x is a decentralised platform to barter trade your personal assets transparently, securely & without the need of any intermediary.
+• Developed an ERC-20 Standard Token, allowing users to view product history and help bargain.
+• Technology Stack - Hyperledger fabric, Docker, Node.Js, Rest Api, Swagger, Postman.
 
 View the BarterX-Documentation.pdf file for UI Screenshots and Backend-functionalities.
 
