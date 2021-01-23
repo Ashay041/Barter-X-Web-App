@@ -4,7 +4,9 @@ Abstract:
 • Developed an ERC-20 Standard Token, allowing users to view product history and help bargain.
 • Technology Stack - Hyperledger fabric, Docker, Node.Js, Rest Api, Swagger, Postman.
 
+
 View the BarterX-Documentation.pdf file for UI Screenshots and Backend-functionalities.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
